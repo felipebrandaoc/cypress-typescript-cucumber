@@ -1,4 +1,3 @@
-// cypress/e2e/steps/sample.steps.ts
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import { Before, After } from "@badeball/cypress-cucumber-preprocessor";
 

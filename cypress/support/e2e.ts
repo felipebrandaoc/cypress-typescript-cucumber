@@ -14,5 +14,6 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+// Project made by Felipe Brandão Costa - 12/11/2025
 import './commands'
 require('cypress-xpath');

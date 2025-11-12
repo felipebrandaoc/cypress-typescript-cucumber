@@ -1,4 +1,3 @@
-// cypress/e2e/steps/sample.steps.ts
 import { When, Then } from "@badeball/cypress-cucumber-preprocessor";
 import { SearchPage } from "@pages/SearchPage";
 import { After } from "@badeball/cypress-cucumber-preprocessor";

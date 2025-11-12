@@ -11,6 +11,10 @@ export class SearchPage {
   getRemoveButton() {
     return cy.contains('button', 'Remove');
   }
+
+  getLoadMoreButton() {
+    return cy.contains('button', 'Load More');
+  }
 }
 
 export default new SearchPage();

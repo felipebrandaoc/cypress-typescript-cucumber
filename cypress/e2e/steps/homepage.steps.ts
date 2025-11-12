@@ -1,4 +1,3 @@
-// cypress/e2e/steps/sample.steps.ts
 import { Then } from "@badeball/cypress-cucumber-preprocessor";
 import { HomePage } from "@pages/HomePage";
 
