@@ -1,7 +1,6 @@
-# cypress/e2e/sample/sample.feature (or your original file)
 @smoke
-Feature: Movie Search - Basic Navigation
+Feature: Validate Home Page
 
-  Scenario: Search for a Movie
+  Scenario: Home Page elements
     Given I open the homepage
     Then I check that the page is fully loaded

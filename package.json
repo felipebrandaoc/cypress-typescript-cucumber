@@ -33,6 +33,7 @@
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.7",
     "@types/node": "^24.10.1",
     "cypress": "^15.6.0",
+    "cypress-xpath": "^2.0.1",
     "esbuild": "^0.27.0",
     "eslint": "^9.39.1",
     "prettier": "^3.6.2",

@@ -14,9 +14,13 @@ When('I type {string} in the search bar', (movieName: string) => {
 });
 
 When('I click on the Search button', () => {
-  homePage.getSearchButton().should("be.visible").click()
+  homePage.getSearchButton().should("be.visible").click();
 });
 
 Then("I verify that at least one result was found", () => {
-  
+  cy.get('h3:contains("Harry Potter and the Deathly Hallows: Part 2")').should("be.visible");
+});
+
+Then("I verify that no results were found", () => {
+  cy.get('img').should("not.exist");
 });

@@ -10,7 +10,7 @@ declare global {
        */
       sendGetRequest(url: string, headers?: Record<string, string>): Chainable<Cypress.Response<any>>;
 
-      sendPostRequest(url: string, body: string, headers?: Record<string, string>): Chainable<Cypress.Response<any>>;
+      sendPostRequest(url: string, body: any, headers?: Record<string, string>): Chainable<Cypress.Response<any>>;
 
       sendDeleteRequest(url: string, body: string, headers?: Record<string, string>): Chainable<Cypress.Response<any>>;
 
